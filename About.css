@@ -1,0 +1,119 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 170px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #0d0c0c;
+    margin-top: -10px;
+}
+
+nav ul {
+    list-style: lower-greek;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    gap: 25px;
+}
+
+nav ul li span {
+    font-weight: bold;
+    color: #333;
+    gap: 25px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('#');/* Replace with actual image */
+    background-size: contain;
+    background-color: #ffc107;
+    background-position: left;
+   
+    padding: 100px 20px;
+    color: #000;
+}
+
+.hero h2 {
+    font-size: 50px;
+    color: #000000;
+    text-decoration: none;
+    background-color:#ffc107;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #000000;
+    text-align: center;
+    background-color: #ffc107;
+    line-break: normal;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px ;
+}
+
+.about-image {
+    width: 100%;
+    
+    display: flexbox;
+    background-position: cover;
+}
+
+.about-text {
+    width: 100%;
+    padding: 80px;
+    background-color: #ffc107;
+    color: #000000;
+    font-size: medium;
+}
+
+.about-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
